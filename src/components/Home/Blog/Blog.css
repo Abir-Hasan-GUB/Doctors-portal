@@ -28,9 +28,9 @@
     opacity: 1;
     width: 100%;
 }
-.cardOverlay .cardFooterInfo{
+/* .cardOverlay .cardFooterInfo{
     padding: 25px;
-}
+} */
 .rightArrow{
     font-size: 35px !important;
     color: #fff;

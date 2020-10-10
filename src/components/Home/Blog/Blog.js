@@ -5,15 +5,13 @@ import people2 from '../../../images/People2.png';
 import people3 from '../../../images/People3.png';
 import { faLongArrowAltRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import quate from '../../../images/quote.png';
-
 
 const rightArrowIcon = <FontAwesomeIcon icon={faLongArrowAltRight} />
 
 const Blog = () => {
     return (
         <div className="container">
-            <div className="text-center sarviceResponsive blogText">
+            <div className="text-center blogText">
                 <h5 style={{ color: '#1CC7C1' }}>OUR BLOG</h5>
                 <h2>From Our Blog News</h2>
             </div>
@@ -38,8 +36,8 @@ const Blog = () => {
                 layout. The point </p>
             </div>
             
-            <div className="cardOverlay">
-            <div className="cardFooterInfo">
+            <div className="cardOverlay p-3">
+            <div className="cardFooterInfo ">
                         <h6 className="pt-5" style={{ color: '#fff' }}>Winson Herry</h6>
                         <p className="text-white">23 April 2019</p>
                         <h4 className="mt-3 mb-3 text-white">The tooth cancer is taking achallenge</h4>
@@ -67,7 +65,7 @@ const Blog = () => {
                             by the readable content of a lot
                             layout. The point </p>
                         </div>
-                        <div className="cardOverlay">
+                        <div className="cardOverlay p-3">
                         <div className="cardFooterInfo">
                         <h6 className="pt-5" style={{ color: '#fff' }}>Winson Herry</h6>
                         <p className="text-white">23 April 2019</p>
@@ -94,8 +92,8 @@ const Blog = () => {
                             by the readable content of a lot
                             layout. The point </p>
                         </div>
-                        <div className="cardOverlay">
-                        <div className="cardFooterInfo">
+                        <div className="cardOverlay p-3">
+                        <div className="cardFooterInfo ">
                         <h6 className="pt-5" style={{ color: '#fff' }}>Winson Herry</h6>
                         <p className="text-white">23 April 2019</p>
                         <h4 className="mt-3 mb-3 text-white">The tooth cancer is taking achallenge</h4>
