@@ -1,0 +1,25 @@
+.blogText{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.blogNews .card {
+    box-shadow: 10px 9px 13px -5px rgba(112,112,112,1);
+}
+.blogCards{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.card {
+    position: relative;
+}
+/* .secondCard{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: linear-gradient(to right,#18D3AF,#0FCFEA);
+    box-shadow: 10px 9px 13px -5px rgba(112,112,112,1);
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    box-sizing: border-box;
+} */
