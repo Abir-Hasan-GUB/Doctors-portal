@@ -1,4 +1,5 @@
 import React from 'react';
+import FeaturedService from '../FeaturedService/FeaturedService';
 import Header from '../Hader/Header';
 import Sarvices from '../Sarvices/Sarvices';
 
@@ -7,6 +8,7 @@ const Home = () => {
         <div>
             <Header></Header>
             <Sarvices></Sarvices>
+            <FeaturedService></FeaturedService>
         </div>
     );
 };
