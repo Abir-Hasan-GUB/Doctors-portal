@@ -1,0 +1,8 @@
+.testimonialTop{
+    height: 200px;
+    background-image: url(../../../images/quote.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 150px;
+    margin-top: 80px;
+}
