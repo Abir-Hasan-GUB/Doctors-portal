@@ -34,20 +34,9 @@ const Blog = () => {
                 <p class="card-text text-secondary">IIt is a long established fact that
                 by the readable content of a lot
                 layout. The point </p>
-            </div>
-            
-            <div className="cardOverlay p-3">
-            <div className="cardFooterInfo ">
-                        <h6 className="pt-5" style={{ color: '#fff' }}>Winson Herry</h6>
-                        <p className="text-white">23 April 2019</p>
-                        <h4 className="mt-3 mb-3 text-white">The tooth cancer is taking achallenge</h4>
-                        <a className="rightArrow" href="#">{rightArrowIcon}</a>
-
-                    </div>
+                
             </div>
                     </div>
-
-
                     <div class="card">
 
                         <div class="card-body">
@@ -64,16 +53,9 @@ const Blog = () => {
                             <p class="card-text text-secondary">IIt is a long established fact that
                             by the readable content of a lot
                             layout. The point </p>
+                            
                         </div>
-                        <div className="cardOverlay p-3">
-                        <div className="cardFooterInfo">
-                        <h6 className="pt-5" style={{ color: '#fff' }}>Winson Herry</h6>
-                        <p className="text-white">23 April 2019</p>
-                        <h4 className="mt-3 mb-3 text-white">The tooth cancer is taking achallenge</h4>
-                        <a className="rightArrow" href="#">{rightArrowIcon}</a>
-
-                    </div>
-                        </div>
+                        
                     </div>
                     <div class="card">
 
@@ -91,16 +73,9 @@ const Blog = () => {
                             <p class="card-text text-secondary">IIt is a long established fact that
                             by the readable content of a lot
                             layout. The point </p>
+            
                         </div>
-                        <div className="cardOverlay p-3">
-                        <div className="cardFooterInfo ">
-                        <h6 className="pt-5" style={{ color: '#fff' }}>Winson Herry</h6>
-                        <p className="text-white">23 April 2019</p>
-                        <h4 className="mt-3 mb-3 text-white">The tooth cancer is taking achallenge</h4>
-                        <a className="rightArrow" href="#">{rightArrowIcon}</a>
-
-                    </div>
-                        </div>
+                       
                     </div>
                 </div>
             </div>

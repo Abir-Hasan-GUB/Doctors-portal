@@ -1,4 +1,6 @@
 import React from 'react';
+import Contacts from '../../Contacts/Contacts';
+import Footer from '../../Contacts/Contacts';
 import Appointment from '../Appointment/Appointment';
 import Blog from '../Blog/Blog';
 import FeaturedService from '../FeaturedService/FeaturedService';
@@ -17,6 +19,8 @@ const Home = () => {
             <Testimonial></Testimonial>
             <Blog></Blog>
             <OurDoctors></OurDoctors>
+            <Contacts></Contacts>
+
         </div>
     );
 };

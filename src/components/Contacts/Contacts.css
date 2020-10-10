@@ -1,0 +1,50 @@
+#contacts{
+    height: 600px;
+    width: 100%;
+    background: url(../../images/DoctorBG.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 100px;
+    position: relative;
+    z-index: 1;
+}
+#contacts::before{
+    position: absolute;
+    content: "";
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(12, 11, 27);
+    opacity: .9;
+    z-index: -1;
+
+}
+.contacts .blogText h5{
+    padding-top: 50px;
+}
+.contactsFrom{
+    height: 300px;
+    width: 70%;
+    margin: -80px auto;
+    padding: 50px 50px 100px 50px;
+}
+.contactsFrom input,textarea{
+    display: block;
+    width: 100%;
+}
+#email,#subject{
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+#submitBtn{
+    width: 25%;
+    margin: 20px auto;
+    padding : 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to right,#18D3AF,#0FCFEA);
+}
