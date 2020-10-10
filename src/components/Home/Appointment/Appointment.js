@@ -15,8 +15,7 @@ const Appointment = () => {
                     <h1 className="ml-1 text-white">Make an appointment <br />
                     Today</h1>
                     <p className="text-white pt-3 pb-5 w-75">It is a long established fact that a reader will be distractedby the readable
-                    content of a page when looking at its
- </p>
+                    content of a page when looking at its </p>
                     <button className="btn apoinmentBtn">Learn More</button>
                    </div>
                 </div>
