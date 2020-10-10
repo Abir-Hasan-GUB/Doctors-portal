@@ -3,6 +3,7 @@ import Appointment from '../Appointment/Appointment';
 import Blog from '../Blog/Blog';
 import FeaturedService from '../FeaturedService/FeaturedService';
 import Header from '../Hader/Header';
+import OurDoctors from '../OurDoctors/OurDoctors';
 import Sarvices from '../Sarvices/Sarvices';
 import Testimonial from '../Testimonial/Testimonial';
 
@@ -15,6 +16,7 @@ const Home = () => {
             <Appointment></Appointment>
             <Testimonial></Testimonial>
             <Blog></Blog>
+            <OurDoctors></OurDoctors>
         </div>
     );
 };
