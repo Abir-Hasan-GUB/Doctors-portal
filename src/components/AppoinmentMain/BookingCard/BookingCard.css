@@ -1,0 +1,14 @@
+.bookingCard{
+    height: 230px;
+    box-shadow: 10px 9px 13px -5px rgba(112,112,112,1);
+}
+.bookingCard button{
+    background: linear-gradient(to right,#18D3AF,#0FCFEA);
+    font-weight: 700;
+    color: #fff;
+    padding: 10px 15px;
+}
+.bookingCard h4{
+    color: #1CC7C1;
+    font-weight: 500;
+}

@@ -1,15 +1,12 @@
 import React from 'react';
-import './Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faInstagram, faGooglePlusG } from '@fortawesome/free-brands-svg-icons';
+import './Footer.css';
 
 const facebook = <FontAwesomeIcon icon={faFacebookF} />
 const google = <FontAwesomeIcon icon={faInstagram} />
 const twitter = <FontAwesomeIcon icon={faGooglePlusG} />
 
-{/* <i class="fab fa-facebook-f"></i>
-<i class="fab fa-google-plus-g"></i>
-<i class="fab fa-twitter"></i> */}
 const Footer = () => {
     return (
         <div className = "container footerDiv">
